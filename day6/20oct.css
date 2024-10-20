@@ -1,0 +1,26 @@
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform:lowercase;
+}
+p.capitalize{
+    text-transform: capitalize;
+}
+p.text{
+
+    text-transform: inherit;
+    word-spacing: 10px;
+    font-style: oblique;
+    lighting-color: cadetblue;
+    text-shadow:10px 10px 10px violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant:inherit;
+}
+
+ul.unordered {
+    list-style-type: upper-roman;
+    list-style-position:outside;
+    line-height: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

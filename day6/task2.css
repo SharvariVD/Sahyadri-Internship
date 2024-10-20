@@ -1,0 +1,138 @@
+* {
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.resume-container {
+    background-color: #ffffff;
+    width: 85%;
+    max-width: 900px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    background-color: #876893;
+    color: white;
+    width: 35%;
+    padding: 20px;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.profile-header h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.profile-header p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #e6e6e6;
+}
+
+.contact, .skills, .languages {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.contact p, .skills ul li, .languages ul li {
+    font-size: 14px;
+    color: white;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills ul, .languages ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills ul li, .languages ul li::before {
+    content: "• ";
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.right-column .section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    font-size: 22px;
+    color: #34495e;
+    border-bottom: 2px solid #876893;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+p, ul li {
+    font-size: 16px;
+    color: #566573;
+    line-height: 1.8;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.education-item, .job {
+    margin-bottom: 20px;
+}
+
+.education-item h4, .job h4 {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.education-item p, .job p {
+    font-size: 15px;
+    color: #7d8a8a;
+}
